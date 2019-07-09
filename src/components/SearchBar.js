@@ -3,6 +3,7 @@ import React from 'react';
 class SearchBar extends React.Component {
     state = { term: ''}
 
+        //it has to be added just to be able to update the textbox with new values
     onInputChange = (event) => {
         this.setState({term: event.target.value});
     };
